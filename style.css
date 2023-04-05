@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #A3B18A;
+}
+
+.nav-bar{
+    height: 80px;
+    background-color: #DAD7CD;
+    margin-top: 16px;
+}
+
+.logo{
+    margin-left: 180px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.list{
+    display: inline-flex;
+    margin-left: 30em;
+    list-style-type: none;
+}
+
+li{
+    padding: 16px;
+    margin: 16px;
+    border: 2px;
+    border-radius: 5px;
+}
+
+.link_list{
+    text-decoration: none;
+    color: black;
+}
+
+li:hover{
+    background-color: #588157;
+    color: antiquewhite;
+}
+
+li:active{
+    box-shadow: 2px 2px 5px rgb(37, 78, 34);
+}
+input{
+    margin-top: 40px;
+    margin-left: 530px;
+    margin-bottom: 40px;
+    height: 40px;
+    width: 450px;
+    border-radius: 2px;
+    color: black;
+    border: none;
+}
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+    border: none;
+}
+.content{
+    margin-left: 50px;
+    width:50%;
+    margin-bottom: 30px;
+}
+.heading{
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+.heading:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.poster{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+img{
+    width: 760px;
+    height: 400px;
+}
+.paragraph{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.letter{
+    font-size: 60px;
+}
+.blog_covid{
+    font-size: 25px;
+    text-indent: 30%;
+    text-align: justify;
+    border: 2px solid black;
+    padding: 16px;
+}
+.link-word{
+    text-decoration: underline;
+    color: black;
+}
+.sidebar{
+    width: 600px;
+    padding-top: 100px;
+    float: right !important;
+    position:relative;
+    height: 1220px;
+    margin-top: -1220px;
+}
+video{
+    height: 230px;
+    width: 350px;
+    margin: 0px 20px 0px  20px;
+    padding: 0px 20px 0px 20px;
+}
+.headlines{
+    font-size: 18px;
+    margin-left: 40px;
+    font-weight: bolder;
+    width: 330px;
+}
+.headlines:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
